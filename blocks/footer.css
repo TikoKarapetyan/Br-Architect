@@ -1,0 +1,9 @@
+.footer{
+    background-color: var(--buuton-bg);
+    color: var( --bg-color);
+}
+
+.footer__div{
+    text-align: center;
+    padding: 2.5em 0;
+}

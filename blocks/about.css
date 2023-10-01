@@ -1,0 +1,44 @@
+.about {
+    margin-top: 2em;
+    opacity: 0.8;
+}
+
+.people-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.proffesion {
+    color: var(--hover-color);
+    margin: var(--element-margin);
+}
+
+.contact-button {
+    width: 100%;
+    background-color: var(--card-footer);
+    padding: var(--element-padding);
+    margin: var(--element-margin);
+}
+
+
+@media (max-width:62.5em){
+    .people-list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section{
+        padding: 0 3em;
+    }
+}
+
+@media (max-width:37.5em){
+    .people-list{
+        grid-template-columns:  1fr;
+    }
+
+    .section{
+        padding: 0 3em;
+    }
+}

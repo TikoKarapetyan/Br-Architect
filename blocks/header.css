@@ -1,0 +1,39 @@
+.header {
+    letter-spacing: 4px;
+    padding: 0.5em 2em;
+    font-weight: 600;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav {
+    margin-left: auto;
+
+}
+
+.header__div {
+    display: flex;
+}
+
+.navogation-list {
+    display: flex;
+}
+
+.secondary-title {
+    padding: var(--element-padding);
+
+}
+
+.nav-ul__li {
+    padding: var(--element-padding);
+}
+
+.element-hover:hover {
+    background-color: var(--hover-color);
+}
+
+
+@media (max-width:37.5em) {
+    .navogation-list{
+        display: none;
+    }
+}

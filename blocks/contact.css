@@ -1,0 +1,24 @@
+.contact__hr{
+    margin: var(--element-margin);
+}
+
+.input{
+    width: 100%;
+    margin: var(--element-margin);
+    padding: 0.5em;
+}
+
+.input:active{
+    border: 2px solid var(--buuton-bg);
+}
+
+.description{
+    margin: 1em 0;
+}
+
+.send{
+    background-color: var(--title-bg);
+    color: var(--bg-color);
+    padding: var(--element-padding);
+    margin: 1.5em 0;
+}
